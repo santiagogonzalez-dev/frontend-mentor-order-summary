@@ -115,7 +115,8 @@ section {
   /* border-width: 1px; */
   display: flex;
   align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  /* justify-content: center; */
   border-radius: 20px;
   box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.1);
 }
