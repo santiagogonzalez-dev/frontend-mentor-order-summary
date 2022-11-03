@@ -109,6 +109,8 @@ main {
 section {
   width: 410px;
   height: 640px;
+  min-height: 300px;
+  margin: 3%;
   background-color: white;
   /* border-style: solid; */
   /* border-color: red; */
@@ -119,4 +121,11 @@ section {
   /* justify-content: center; */
   border-radius: 20px;
   box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+  /* FIXME AND TODO: Why do I have to include a border here if the div parent
+  * already has the border, why is it being ignored? */
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
 }
