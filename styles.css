@@ -11,6 +11,8 @@ h1,
 h2,
 h3,
 h4,
+h5,
+h6,
 p,
 figure,
 blockquote,
@@ -128,16 +130,38 @@ section {
 .title {
   margin-top: 40px;
   margin-bottom: 16px;
-  font-weight: var(--bold);
+  font-weight: var(--black);
   font-size: 26px;
   color: var(--dark-blue);
 }
 
-.description {
-  color: var(--desaturated-blue);
+p {
   font-size: 15px;
+  line-height: 24px; /* The same as your div height */
+  color: var(--desaturated-blue);
+}
+
+.description {
   text-align: center;
   vertical-align: middle;
-  line-height: 24px; /* The same as your div height */
   margin: 0 40px;
+  margin-bottom: 20px;
+}
+
+.bill {
+  display: flex;
+  gap: 10px;
+  background-color: var(--very-pale-blue);
+  border-radius: 10px;
+  padding: 20px;
+  width: 80%;
+  border-style: solid;
+  border-color: blue;
+  border-width: 1px;
+}
+
+.bill__description {
+  border-style: solid;
+  border-color: red;
+  border-width: 1px;
 }
