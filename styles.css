@@ -150,18 +150,68 @@ p {
 
 .bill {
   display: flex;
-  gap: 10px;
+  gap: 1rem;
   background-color: var(--very-pale-blue);
   border-radius: 10px;
   padding: 20px;
+  margin: 3px;
   width: 80%;
-  border-style: solid;
-  border-color: blue;
-  border-width: 1px;
 }
 
 .bill__description {
-  border-style: solid;
-  border-color: red;
-  border-width: 1px;
+  /* border-style: solid; */
+  /* border-color: red; */
+  /* border-width: 1px; */
+  color: var(--dark-blue);
+}
+
+h5 {
+  font-weight: var(--black);
+  font-size: 15px;
+}
+
+.change {
+  /* border-style: solid; */
+  /* border-color: green; */
+  /* border-width: 1px; */
+  border: none;
+  color: var(--bright-blue);
+  text-align: right;
+  font-size: 14px;
+  font-weight: var(--bold);
+  margin-left: auto;
+  margin-right: 0;
+  background: none;
+}
+
+.change:hover {
+  color: var(--desaturated-blue);
+}
+
+.payment {
+  width: 80%; /* The same as .bill */
+  background-color: var(--bright-blue);
+  border-radius: 10px;
+  padding: 12px;
+  color: white;
+  font-size: 14px;
+  font-weight: var(--black);
+  border: none;
+  box-shadow: 0px 15px 30px rgba(114, 128, 167, 0.4);
+  margin: 1.5rem;
+}
+
+.payment:hover {
+  background-color: var(--desaturated-blue);
+}
+
+.cancel {
+  background-color: white;
+  color: var(--desaturated-blue);
+  font-size: 14px;
+  border: none;
+  font-weight: var(--black);
+}
+.cancel:hover {
+  color: var(--dark-blue);
 }
